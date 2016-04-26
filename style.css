@@ -1,0 +1,185 @@
+html, body {
+	margin:0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	
+}
+
+h1, h2, h3, p, li {
+	font-weight: 100;
+}
+
+.container-fluid{
+	margin: 0;
+	padding:0;
+}
+
+header{
+	text-align: center;
+	margin-bottom: -100px;
+}
+
+header h1 {
+	padding-top: 30px;
+}
+
+
+
+img {
+	border-radius: 100px;
+}
+
+
+.welcome{
+	background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(images/bigsur.jpg);
+ 	/*background:url(http://4.bp.blogspot.com/_AQ0vcRxFu0A/S9shDGGyMTI/AAAAAAAAAYk/kn3WTkY2LoQ/s1600/IMG_0714.JPG);*/
+  	background-size:cover;
+  	background-position:center center;
+  	background-attachment:fixed;
+	background-color: rgba(0,0,0,0.1); !important;
+	margin-top: 0px;
+	padding-top: 175px;
+	min-height: 400px;
+	color: white;
+}
+
+.welcome p {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
+.languages{
+	margin-top: 0px;
+	padding-top: 110px;
+	min-height: 400px;
+}
+
+.languages h2 {
+	text-align: center;
+	margin-left: 10px;
+	font-weight: 400;
+}
+
+
+.row-centered {
+    text-align:center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.code {
+	font-size: 20px;
+	font-weight: 100;
+	padding-bottom: 10px;
+}
+
+
+#iframediv {
+     width: 100%;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(images/waterfall.jpg);
+ 	/*background:url(http://4.bp.blogspot.com/_AQ0vcRxFu0A/S9shDGGyMTI/AAAAAAAAAYk/kn3WTkY2LoQ/s1600/IMG_0714.JPG);*/
+  	background-size:cover;
+  	background-position:center center;
+  	background-attachment:fixed;
+	background-color: rgba(0,0,0,0.1); !important;
+	margin-top: 0px;
+	padding-top: 175px;
+	min-height: 400px;
+	color: white;
+}
+
+#iframediv h2{
+	text-align: center;
+	font-weight: 500;
+}
+
+#portfolio{
+	background-color: #eee;
+}
+
+#portfolio h2{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 70px;
+	margin-top: 0;
+	padding-bottom: 30px;
+}
+
+#accordion{
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+}
+
+#accordion h3{
+	font-size: 24px;
+}
+
+iframe {
+	width: 100%;
+	height: 800px;
+	border: none;
+}
+
+#contact {
+     width: 100%;
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(images/wave.jpg);
+ 	/*background:url(http://4.bp.blogspot.com/_AQ0vcRxFu0A/S9shDGGyMTI/AAAAAAAAAYk/kn3WTkY2LoQ/s1600/IMG_0714.JPG);*/
+  	background-size:cover;
+  	background-position:center center;
+  	background-attachment:fixed;
+	background-color: rgba(0,0,0,0.1); !important;
+	margin-top: 0px;
+	padding-top: 125px;
+	min-height: 400px;
+	color: white;
+}
+
+#contact h2{
+	text-align: center;
+	font-weight: 500;
+}
+
+#contact i {
+	color: white;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+
+footer {
+	height: 200px;
+	background-color: #eee;
+	color: #999;
+	text-align: center;
+	font-size: 18px;
+	line-height: 200px;
+	vertical-align: middle;
+}
+
+
